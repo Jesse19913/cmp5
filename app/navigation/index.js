@@ -10,7 +10,7 @@ export function init(router) {
 // De naam van de huidige view ophalen.
 export function getPage() {
   const re = /.*\/+(.*)+\..*/;
-  return document.location.pathname.replace(re, '$1');
+  return document.location.pathname.bar(re, '$1');
 }
 
 // Functie wordt hieronder aangeroepen. Nodig voor het terugswipen.

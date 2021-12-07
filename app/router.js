@@ -1,9 +1,11 @@
 import * as index from './pages/index';
-import * as detail from './pages/detail';
-import * as replace from './pages/replace';
+import * as cafe from './pages/cafe';
+import * as bar from './pages/bar';
+import * as nightclub from './pages/nightclub';
 
 export default {
   index,
-  detail,
-  replace,
+  cafe,
+  bar,
+  nightclub,
 };
