@@ -6,7 +6,7 @@ let $button = null;
 let $locationName = null;
 
 function doSomething() {
-  console.log('hallo detail');
+  console.log('hallo cafe');
 }
 
 function draw() {
@@ -14,14 +14,14 @@ function draw() {
 }
 
 export function destroy() {
-  console.log('destroy detail page');
+  console.log('destroy cafe page');
   $locationName = null;
   $button = null;
-  removeStateCallback('detail');
+  removeStateCallback('cafe');
 }
 
 export function init() {
-  console.log('init detail page');
+  console.log('init cafe page');
   $locationName = document.getElementById('location');
   $button = document.getElementById('back-button');
   $button.onclick = () => {
@@ -31,6 +31,6 @@ export function init() {
 
   doSomething();
   getLocationName();
-  setStateCallback('detail', draw);
+  setStateCallback('cafe', draw);
   // draw();
 }

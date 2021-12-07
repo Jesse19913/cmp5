@@ -7,7 +7,7 @@ let $letter = null;
 let $timestamp = null;
 
 function doSomething() {
-  console.log('hallo replace');
+  console.log('hallo bar');
 }
 
 function draw() {
@@ -24,15 +24,15 @@ function draw() {
 }
 
 export function destroy() {
-  console.log('destroy replace page');
+  console.log('destroy bar page');
   $button = null;
   $letter = null;
   $timestamp = null;
-  removeStateCallback('replace');
+  removeStateCallback('bar');
 }
 
 export function init() {
-  console.log('init replace page');
+  console.log('init bar page');
   $letter = document.getElementById('letter');
   $timestamp = document.getElementById('timestamp');
   $button = document.getElementById('back-button');
@@ -41,7 +41,7 @@ export function init() {
     switchPage('index');
   };
 
-  setStateCallback('replace', draw);
+  setStateCallback('bar', draw);
   doSomething();
   draw();
 }
