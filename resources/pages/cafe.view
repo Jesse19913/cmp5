@@ -1,7 +1,8 @@
 <svg viewport-fill="#000000">
-  <textarea fill="#FFFFFF" x="18" y="3" width="300" height="110" font-size="36" font-family="System-Regular" text-anchor="middle" text-buffer="Cafes" />
-  <use href="#button" fill="#FFFFFF" x="10%" y="100%-100" width="80%">
+<textarea fill="#FFFFFF" x="18" y="260" width="300" height="110" font-size="26" font-family="System-Regular" text-anchor="middle" text-buffer="Searching for a cafe…" />
+  <use href="#button" fill="#FFFFFF" x="34%" y="100%-320" width="35%">
     <set href="text" attributeName="text-buffer" to="Back" />
     <set href="handle" attributeName="id" to="back-button" />
   </use>
+  <image x="120" y="100" width="110" height="110" href="cafeicon.png" />
 </svg>
