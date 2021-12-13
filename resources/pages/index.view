@@ -1,12 +1,12 @@
 <svg viewport-fill="#000000">
-<textarea fill="#FFFFFF" x="22" y="3" width="300" height="110" font-size="26" font-family="System-Regular" text-anchor="middle" text-buffer="I'm looking for a" />
+<textarea fill="#FFFFFF" x="22" y="3" width="300" height="110" font-size="26" font-family="System-Regular" text-anchor="middle" text-buffer="I'm looking for a..." />
 
-  <use href="#button" fill="#FFFFFF" x="35%" y="100%-225" width="35%">
+  <use href="#button" fill="#FFFFFF" x="35%" y="100%-215" width="35%">
     <set href="text" attributeName="text-buffer" to="Cafe" />
     <set href="handle" attributeName="id" to="cafe-button" />
   </use>
 
-  <use href="#button" fill="#FFFFFF" x="56%" y="100%-85" width="35%">
+  <use href="#button" fill="#FFFFFF" x="58%" y="100%-85" width="35%">
     <set href="text" attributeName="text-buffer" to="Bar" />
     <set href="handle" attributeName="id" to="bar-button" />
   </use>
