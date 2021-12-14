@@ -12,8 +12,8 @@
   </use>
 
   <use href="#button" fill="#FFFFFF" x="10%" y="100%-85" width="35%">
-    <set href="text" attributeName="text-buffer" to="Nightclub" />
-    <set href="handle" attributeName="id" to="nightclub-button" />
+    <set href="text" attributeName="text-buffer" to="Club" />
+    <set href="handle" attributeName="id" to="club-button" />
   </use>
 
   <image x="145" y="60" width="65" height="65" href="cafeicon.png" />

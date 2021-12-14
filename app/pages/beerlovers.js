@@ -1,3 +1,4 @@
+import document from 'document';
 import { switchPage } from '../navigation';
 
 let $button = null;
@@ -11,6 +12,6 @@ export function init() {
 
   $button.onclick = () => {
     destroy();
-    switchPage('index');
+    switchPage('bar');
   };
 }

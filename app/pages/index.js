@@ -3,18 +3,18 @@ import { switchPage } from '../navigation';
 
 let $buttonCafe = null;
 let $buttonBar = null;
-let $buttonNightclub = null;
+let $buttonClub = null;
 
 export function destroy() {
   $buttonCafe = null;
   $buttonBar = null;
-  $buttonNightclub = null;
+  $buttonClub = null;
 }
 
 export function init() {
   $buttonCafe = document.getElementById('cafe-button');
   $buttonBar = document.getElementById('bar-button');
-  $buttonNightclub = document.getElementById('nightclub-button');
+  $buttonClub = document.getElementById('club-button');
 
   $buttonCafe.onclick = () => {
     switchPage('cafe', true);
@@ -22,7 +22,7 @@ export function init() {
   $buttonBar.onclick = () => {
     switchPage('bar');
   };
-  $buttonNightclub.onclick = () => {
-    switchPage('nightclub');
+  $buttonClub.onclick = () => {
+    switchPage('club');
   };
 }

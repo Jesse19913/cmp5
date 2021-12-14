@@ -2,14 +2,6 @@
   <defs>
     <link rel="stylesheet" href="styles.css" />
 
-    <link rel="stylesheet" href="pages/cafe.css" />
-    <link rel="stylesheet" href="pages/bar.css" />
-    <link rel="stylesheet" href="pages/nightclub.css" />
-    <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="pages/velvet.css" />
-    <link rel="stylesheet" href="pages/random.css" />
-    <link rel="stylesheet" href="pages/beerlovers.css" />
-
     <link rel="stylesheet" href="components/button.css" />
 
     <link rel="import" href="/mnt/sysassets/system_widget.defs" />
