@@ -6,14 +6,12 @@ let $buttonBar = null;
 let $buttonNightclub = null;
 
 export function destroy() {
-  console.log('destroy index page');
   $buttonCafe = null;
   $buttonBar = null;
   $buttonNightclub = null;
 }
 
 export function init() {
-  console.log('init index page');
   $buttonCafe = document.getElementById('cafe-button');
   $buttonBar = document.getElementById('bar-button');
   $buttonNightclub = document.getElementById('nightclub-button');
