@@ -1,0 +1,19 @@
+<svg viewport-fill="#000000">
+<textarea fill="#FFFFFF" x="18" y="23" width="300" height="110" font-size="20" font-family="System-Regular" text-anchor="middle" text-buffer="Cafe" />
+<textarea fill="#FFFFFF" x="18" y="46" width="300" height="110" font-size="24" font-family="System-Bold" text-anchor="middle" text-buffer="Velvet Cafe" />
+<textarea fill="#FFFFFF" x="18" y="75" width="300" height="110" font-size="20" font-family="System-Regular" text-anchor="middle" text-buffer="0.1km" />
+
+  <use href="#button" fill="#FFFFFF" x="34%" y="100%-200" width="35%">
+    <set href="text" attributeName="text-buffer" to="Back" />
+    <set href="handle" attributeName="id" to="back-button" />
+  </use>
+  <image x="0" y="150" width="350" height="200" href="velvet.png" />
+  <image x="255" y="30" width="65" height="65" href="dislike.png" />
+  <image x="20" y="30" width="65" height="65" href="like.png" />
+  <image x="100" y="105" width="25" height="25" href="cafeicon.png" />
+  <image x="130" y="105" width="25" height="25" href="cafeicon.png" />
+  <image x="160" y="105" width="25" height="25" href="cafeicon.png" />
+  <image x="190" y="105" width="25" height="25" href="cafeicon.png" />
+  <image x="220" y="105" width="25" height="25" href="cafeicon.png" />
+
+</svg>

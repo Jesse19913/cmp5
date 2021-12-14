@@ -5,10 +5,6 @@ let $buttonCafe = null;
 let $buttonBar = null;
 let $buttonNightclub = null;
 
-function doSomething() {
-  console.log('hallo index');
-}
-
 export function destroy() {
   console.log('destroy index page');
   $buttonCafe = null;
@@ -31,6 +27,4 @@ export function init() {
   $buttonNightclub.onclick = () => {
     switchPage('nightclub');
   };
-
-  doSomething();
 }

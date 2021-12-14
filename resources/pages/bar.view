@@ -4,5 +4,9 @@
     <set href="text" attributeName="text-buffer" to="Back" />
     <set href="handle" attributeName="id" to="back-button" />
   </use>
+  <use href="#button" fill="#FFFFFF" x="34%" y="100%-100" width="35%">
+    <set href="text" attributeName="text-buffer" to="Beerlovers" />
+    <set href="handle" attributeName="id" to="beerlovers-button" />
+  </use>
   <image x="120" y="100" width="110" height="110" href="baricon.png" />
 </svg>

@@ -1,36 +1,45 @@
 import document from 'document';
-import { getLocationName } from '../commands';
+import { switchPage } from '../navigation';
 import { getStateItem, setStateCallback, removeStateCallback } from '../state';
 
 let $button = null;
-let $locationName = null;
-
-function doSomething() {
-  console.log('hallo cafe');
-}
+let $letter = null;
+let $buttonVelvet = null;
 
 function draw() {
-  $locationName.text = getStateItem('location');
+  const letter = getStateItem('letter');
+
+  if (letter) {
+    $letter.text = letter;
+  } else {
+    $letter.text = 'set letter';
+  }
 }
 
 export function destroy() {
   console.log('destroy cafe page');
-  $locationName = null;
   $button = null;
+  $letter = null;
+  $buttonVelvet = null;
   removeStateCallback('cafe');
 }
 
 export function init() {
   console.log('init cafe page');
-  $locationName = document.getElementById('location');
+  $letter = document.getElementById('letter');
   $button = document.getElementById('back-button');
+  $buttonVelvet = document.getElementById('velvet-button');
+
   $button.onclick = () => {
     destroy();
-    document.history.back();
+    switchPage('index');
   };
 
-  doSomething();
-  getLocationName();
+  $buttonVelvet.onclick = () => {
+    destroy();
+    switchPage('velvet');
+  };
+
   setStateCallback('cafe', draw);
-  // draw();
+  draw();
 }

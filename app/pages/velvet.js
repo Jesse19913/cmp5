@@ -4,7 +4,6 @@ import { getStateItem, setStateCallback, removeStateCallback } from '../state';
 
 let $button = null;
 let $letter = null;
-let $buttonRandom = null;
 
 function draw() {
   const letter = getStateItem('letter');
@@ -17,29 +16,20 @@ function draw() {
 }
 
 export function destroy() {
-  console.log('destroy club page');
+  console.log('destroy beerlovers page');
   $button = null;
   $letter = null;
-  $buttonRandom = null;
-  removeStateCallback('club');
+  removeStateCallback('beerlovers');
 }
 
 export function init() {
-  console.log('init clib page');
+  console.log('init beerlovers page');
   $letter = document.getElementById('letter');
-  $button = document.getElementById('back-button');
-  $buttonRandom = document.getElementById('random-button');
-
   $button.onclick = () => {
     destroy();
-    switchPage('index');
+    switchPage('bar');
   };
 
-  $buttonRandom.onclick = () => {
-    destroy();
-    switchPage('random');
-  };
-
-  setStateCallback('club', draw);
+  setStateCallback('beerlovers', draw);
   draw();
 }
