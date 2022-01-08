@@ -1,0 +1,14 @@
+<svg viewport-fill="#000000">
+<textarea fill="#FFFFFF" x="18" y="240" width="300" height="110" font-size="26" font-family="System-Regular" text-anchor="middle" text-buffer="Beerlovers Bar" />
+
+  <use href="#button" fill="#FFFFFF" x="34%" y="100%-50" width="35%">
+    <set href="text" attributeName="text-buffer" to="Back" />
+    <set href="handle" attributeName="id" to="back-button" />
+  </use>
+
+  <use href="#button" fill="#FFFFFF" x="34%" y="100%-320" width="35%">
+    <set href="text" attributeName="text-buffer" to="Next" />
+    <set href="handle" attributeName="id" to="next-button" />
+  </use>
+  <image x="120" y="100" width="110" height="110" href="arrow.png" />
+</svg>

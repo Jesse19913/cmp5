@@ -1,23 +1,25 @@
 <svg viewport-fill="#000000">
 <textarea fill="#FFFFFF" x="22" y="3" width="300" height="110" font-size="26" font-family="System-Regular" text-anchor="middle" text-buffer="I'm looking for a..." />
 
-  <use href="#button" fill="#FFFFFF" x="35%" y="100%-215" width="35%">
+<image x="145" y="60" width="65" height="65" href="cafeicon.png" />
+  <use href="#button" fill="#FFFFFF" x="35%" y="100%-280" width="35%" height="45%">
     <set href="text" attributeName="text-buffer" to="Cafe" />
     <set href="handle" attributeName="id" to="cafe-button" />
   </use>
 
-  <use href="#button" fill="#FFFFFF" x="58%" y="100%-85" width="35%">
+
+  <image x="215" y="190" width="65" height="65" href="baricon.png" />
+  <use href="#button" fill="#FFFFFF" x="58%" y="100%-150" width="35%" height="45%">
     <set href="text" attributeName="text-buffer" to="Bar" />
     <set href="handle" attributeName="id" to="bar-button" />
   </use>
 
-  <use href="#button" fill="#FFFFFF" x="10%" y="100%-85" width="35%">
+  <image x="60" y="190" width="65" height="65" href="clubicon.png" />
+
+  <use href="#button" fill="#FFFFFF" x="10%" y="100%-150" width="35%" height="45%">
     <set href="text" attributeName="text-buffer" to="Club" />
     <set href="handle" attributeName="id" to="club-button" />
   </use>
 
-  <image x="145" y="60" width="65" height="65" href="cafeicon.png" />
-  <image x="215" y="190" width="65" height="65" href="baricon.png" />
-  <image x="60" y="190" width="65" height="65" href="clubicon.png" />
 
 </svg>

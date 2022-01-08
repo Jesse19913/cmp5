@@ -4,7 +4,6 @@
 <textarea fill="#FFFFFF" x="18" y="75" width="300" height="110" font-size="20" font-family="System-Regular" text-anchor="middle" text-buffer="1.1km" />
 
   <image x="0" y="150" width="350" height="200" href="beerlovers.png" />
-  <image x="255" y="30" width="65" height="65" href="dislike.png" />
   <image x="20" y="30" width="65" height="65" href="like.png" />
   <image x="100" y="105" width="25" height="25" href="baricon.png" />
   <image x="130" y="105" width="25" height="25" href="baricon.png" />
@@ -16,5 +15,17 @@
     <set href="text" attributeName="text-buffer" to="Back" />
     <set href="handle" attributeName="id" to="back-button" />
   </use>
+
+  <image x="20" y="30" width="65" height="65" href="like.png" />
+    <use href="#button" fill="#FFFFFF" x="2%" y="100%-365" width="35%" height="45%">
+      <set href="text" attributeName="text-buffer" to="" />
+      <set href="handle" attributeName="id" to="like-button" />
+    </use>
+
+  <image x="255" y="30" width="65" height="65" href="dislike.png" />
+    <use href="#button" fill="#FFFFFF" x="68%" y="100%-365" width="35%" height="45%">
+      <set href="text" attributeName="text-buffer" to="" />
+      <set href="handle" attributeName="id" to="dislike-button" />
+    </use>
 
 </svg>
